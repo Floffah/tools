@@ -1,0 +1,15 @@
+{
+  "name": "@floffah/tools",
+  "version": "1.0.0",
+  "description": "A monorepo full of tools i made that i also use on the daily",
+  "repository": "https://github.com/Floffah/tools",
+  "author": "Floffah <therealfloffah@gmail.com>",
+  "license": "GPL-3.0",
+  "private": true,
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "tools/*"
+  ]
+}
